@@ -3,12 +3,12 @@ import type { SiteConfig, ThemeConfig, SettingsConfig, UmamiAnalyticsConfig, Ana
 export const SITE: SiteConfig = {
     website: "https://github.com/Shine-hn/Shine-hn.github.io/",
     author: "Claude Shannon",
-    desc: "Personal academic portfolio and blog of Claude Shannon, Father of Information Theory.",
-    title: "Claude Shannon",
+    desc: "Personal academic portfolio ",
+    title: "Shine-hn",
     ogImage: "shannon.webp",
     postPerPage: 5,
     favicon: "/favicon.svg",
-    lang: "en",
+    lang: "ja",
 };
 
 export const THEME_CONFIG: ThemeConfig = {
@@ -30,7 +30,7 @@ const umami: UmamiAnalyticsConfig = {
 
 export const ANALYTICS: AnalyticsConfig = {
     // Google Analytics 4 Measurement ID (e.g., 'G-XXXXXXXXXX')
-    ga4Id: "",
+    ga4Id: "G-D0REVL6Q7R",
     // Umami Analytics configuration
     umami: umami
 };
